@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <title></title>
+  </head>
+  <body>
+    <div class="tabs">
+      <button class="tab" data-tab-id="goods">Товары</button>
+
+      <span class="separator">/</span>
+
+      <button class="tab cart-tab" data-tab-id="cart" data-goods-count="0">
+        Корзина
+      </button>
+      <!-- <span class="separator">/</span>
+			<button class="tab" data-tab-id="exit">Выйти</button> -->
+    </div>
+
+    <script src="goods.js"></script>
+    <!-- Добавили этот файл выше, чтобы смогли достать из него данные и поместить в идекс жс -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
